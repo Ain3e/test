@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/normalize.css">
+    <link rel="stylesheet" href="/style/main.css">
+    <script src="/scripts/main.js" defer></script>
+    <title>cheong-su-dang</title>
+</head>
+<body>
+    <main>
+        <header class="nav">
+            <picture class="nav__background">
+                <source media="min-width: 36rem" srcset="./assets/img/background_mega.png 1x, ./assets/img/background.png 2x">
+                <source srcset="./assets/img/background_mini.png 1x, ./assets/img/background_midi.png 2x">
+                <img 
+                    src="./assets/img/background_mini.png"
+                    srcset="./assets/img/background_midi.png 2x, ./assets/img/background_mega.png 3x, ./assets/img/background.png 4x"
+                    alt="exterior shot of cheong-su-dang cafe"
+                    >
+            </picture>
+        <nav class="nav__overlay">
+            <a class="nav__overlay__logo" href="/">
+                Cheong-su-dang
+            </a>
+            <div class="nav__overlay__wrapper">
+                <picture class="nav__overlay__wrapper__background">
+                    <source media="min-width: 36rem" srcset="./assets/img/background_mega.png 1x, ./assets/img/background.png 2x">
+                    <source srcset="./assets/img/background_mini.png 1x, ./assets/img/background_midi.png 2x">
+                    <img 
+                        src="./assets/img/background_mini.png"
+                        srcset="./assets/img/background_midi.png 2x, ./assets/img/background_mega.png 3x, ./assets/img/background.png 4x"
+                        alt="exterior shot of cheong-su-dang cafe"
+                        >
+                </picture>
+                <div class="nav__overlay__wrapper__items">
+                    <div class="nav__overlay__wrapper__items__group">
+                        <ul>
+                            <li>
+                                <a href="menu.html" onclick="closeMenu()">Menu</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" onclick="closeMenu()">Contact</a>
+                            </li>
+                            <li>
+                                <a href="cart.html" onclick="closeMenu()">Cart (<span>0</span>)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SVG icons converted to inline using https://www.bayustudio.com/app/svg-encoder/ -->
+            <button class="nav__overlay__menu" onclick="toggleMenu()">
+                <svg class="nav__overlay__menu__img nav__overlay__menu__img--active" width="24" height="24"
+                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 6H21V8H3V6ZM3 11H21V13H3V11ZM3 16H21V18H3V16Z"/>
+                </svg>
+
+                <svg class="nav__overlay__menu__img" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"/>
+                </svg>
+            </button>
+        </nav>
+    </header>
+    <!-- <div class="background"></div> -->
+    <picture class="background">
+        <source media="min-width: 36rem" srcset="./assets/img/background_mega.png 1x, ./assets/img/background.png 2x">
+        <source srcset="./assets/img/background_mini.png 1x, ./assets/img/background_midi.png 2x">
+        <img 
+            src="./assets/img/background_mini.png"
+            srcset="./assets/img/background_midi.png 2x, ./assets/img/background_mega.png 3x, ./assets/img/background.png 4x"
+            alt="exterior shot of cheong-su-dang cafe"
+            >
+    </picture>
+    <section class="hero">
+        <h1 class="h1--hero">A garden in the city in Ikseon-dong, South Korea.</h1>
+        <div class="hero__location">
+            <picture class="hero__location__background">
+                <source media="min-width: 36rem" srcset="./assets/img/background_mega.png 1x, ./assets/img/background.png 2x">
+                <source srcset="./assets/img/background_mini.png 1x, ./assets/img/background_midi.png 2x">
+                <img 
+                    src="./assets/img/background_mini.png"
+                    srcset="./assets/img/background_midi.png 2x, ./assets/img/background_mega.png 3x, ./assets/img/background.png 4x"
+                    alt="exterior shot of cheong-su-dang cafe"
+                    >
+            </picture>
+            <h2 class="h5">Visit us</h2>
+            <a href="https://goo.gl/maps/eoKbazC9VGdP9YWe6" target="_blank">31-9 Donhwamun-ro 11na-gil, Jongno-gu, Seoul, South Korea</a>
+        </div>
+    </section>
+    <section>
+        <p class="h1 h1--hero">
+            Cheong-su-dang offers an escape from the city with a variety of coffees, teas and pastries to enjoy. 
+            As a Hanok-style café, we craft a space for relaxation and truly enjoying the present whether you come alone or with a friend or two.
+        </p>
+    </section>
+    <section class="news">
+        <div class="news__nav">
+            <h2>Latest news</h2>
+            <ul>
+                <li>
+                    <a href="#rewards">
+                        Test
+                    </a>
+                </li>
+                <li>
+                    <a href="#rewards">
+                        Test
+                    </a>
+                </li>
+                <li>
+                    <a href="#rewards">
+                        Test
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="news__item" id="rewards">
+            <picture class="news__item__preview">
+                <img 
+                    src="./assets/img/cafe_interior.png"
+                    alt="pending update"
+                    >
+            </picture>
+            <div class="news__item__desc">
+                <h3 class="lower">Rewards</h3>
+                <p>Check out our new rewards system! Earn bonuses on your next visits through your sticker card.</p>
+            </div>
+        </div>
+        <div class="news__item" id="rewards">
+            <picture class="news__item__preview">
+                <img 
+                    src="./assets/img/cafe_interior.png"
+                    alt="pending update"
+                    >
+            </picture>
+            <div class="news__item__desc">
+                <h3 class="lower">Canada Day Sale</h3>
+                <p>15% off selected items</p>
+            </div>
+        </div>
+        <div class="news__item" id="rewards">
+            <picture class="news__item__preview">
+                <img 
+                    src="./assets/img/drinks_2.png"
+                    alt="pending update"
+                    >
+            </picture>
+            <div class="news__item__desc">
+                <h3 class="lower">July specials</h3>
+                <p>Check out our new fruit teas and lemonades for the month of July.</p>
+            </div>
+        </div>
+    </section>
+    </main>
+</body>
+</html>

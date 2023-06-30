@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/normalize.css">
+    <link rel="stylesheet" href="/style/main.css">
+    <script src="/scripts/main.js" defer></script>
+    <title>menu | cheong-su-dang</title>
+</head>
+<body>
+<main>
+    <header class="nav">
+        <nav class="nav__overlay">
+            <a class="nav__overlay__logo" href="/">
+                Cheong-su-dang
+            </a>
+            <div class="nav__overlay__wrapper">
+                <div class="nav__overlay__wrapper__items">
+                    <div class="nav__overlay__wrapper__items__group">
+                        <ul>
+                            <li>
+                                <a href="/menu.html" onclick="closeMenu()">Menu</a>
+                            </li>
+                            <li>
+                                <a href="/contact.html" onclick="closeMenu()">Contact</a>
+                            </li>
+                            <li>
+                                <a href="/cart.html" onclick="closeMenu()">Cart (<span>0</span>)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SVG icons converted to inline using https://www.bayustudio.com/app/svg-encoder/ -->
+            <button class="nav__overlay__menu" onclick="toggleMenu()">
+                <svg class="nav__overlay__menu__img nav__overlay__menu__img--active" width="24" height="24"
+                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 6H21V8H3V6ZM3 11H21V13H3V11ZM3 16H21V18H3V16Z"/>
+                </svg>
+
+                <svg class="nav__overlay__menu__img" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"/>
+                </svg>
+            </button>
+        </nav>
+    </header>
+    <section class="menu-listings">
+        <h1><span class="menu-selection-item">drinks</span> with us</h1>
+
+        <div class="menu-items">
+            <!-- grouped together because its informational and helps seperate teh price and names -->
+            <div>
+                <div class="menu-item-name">
+                    <h4>Espresso</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>2.75</h4>
+            </div>
+            <div>
+                <div class="menu-item-name">
+                    <h4>Mocha</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>2.75</h4>
+            </div>
+
+            <div>
+                <div class="menu-item-name">
+                    <h4>Latte</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>2.75</h4>
+            </div>
+
+            <div>
+                <div class="menu-item-name">
+                    <h4>Americano</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>2.75</h4>
+            </div>
+
+            <div>
+                <div class="menu-item-name">
+                    <h4>Cappuccino</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>2.75</h4>
+            </div>
+
+        </div>
+        <div class="menu-items">
+            <!-- grouped together because its informational and helps seperate teh price and names -->
+            <div>
+                <div class="menu-item-name">
+                    <h4>Black tea</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>$3</h4>
+            </div>
+
+            <div>
+                <div class="menu-item-name">
+                    <h4>Chai tea</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>2.75</h4>
+            </div>
+
+            <div>
+                <div class="menu-item-name">
+                    <h4>Matcha tea</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>$5</h4>
+            </div>
+
+            <div>
+                <div class="menu-item-name">
+                    <h4>Puer tea</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>$5</h4>
+            </div>
+            <div>
+                <div class="menu-item-name">
+                    <h4>Red tea</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>$5</h4>
+            </div>
+
+
+
+
+
+        </div>
+        <divd class="menu-items">
+            <!-- grouped together because its informational and helps seperate teh price and names -->
+            <div>
+                <div class="menu-item-name">
+                    <h4>Strawberry</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>$6</h4>
+            </div>
+            <div>
+                <div class="menu-item-name">
+                    <h4>Mango</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>$6</h4>
+            </div>
+
+            <div>
+                <div class="menu-item-name">
+                    <h4>Lemon</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>$6</h4>
+            </div>
+
+            <div>
+                <div class="menu-item-name">
+                    <h4>Passionfruit</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>$6</h4>
+            </div>
+
+            <div>
+                <div class="menu-item-name">
+                    <h4>Pineapple</h4>
+                </div>
+                <div class="menu-item-descriptor">
+                    <p>iced/hot</p>
+                </div>
+            </div>
+
+            <div class="menu-item-price">
+                <h4>$6</h4>
+            </div>
+
+        </divd>
+
+
+
+
+
+
+    </section>
+</main>
+</body>
+</html>
